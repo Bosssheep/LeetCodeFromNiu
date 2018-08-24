@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.Map;
 
 /**
@@ -8,7 +10,7 @@ import java.util.Map;
  一个循环表示时间一天天推移，第一天时buy1记录下第一天买入股票身上净利润，
  之后每进入新的一天（今天），就用buy1表示前些天最便宜的股价，sell1保存了前些天买入最便宜股票之后再在股价最高时卖出股票的最大利润。
  新的一天到来，再用buy1继续记录最低股价，再计算出在今天抛售那个最低价股票后的利润，如果这个利润比之前保存的sell1高，那就更新sell1，否则，sell1不变。
-
+·
  */
 
 public class best_time_to_buy_and_sell_stock_iii {
